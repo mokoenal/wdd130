@@ -1,4 +1,6 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto&family=Rock+Salt&display=swap");
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,20 +9,26 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
   }
+
   #hero-msg h1{
     text-align: center;
+    font-family: "Rock Salt","Fredoka One", sans-serif;
   }
   #hero-msg h4{
     text-align: center;
     color: black;
+    font-family: Raleway, Arial, sans-serif;
   }
 
   .button-box {
     text-align: center;
   }
+
   main section {
     text-align: center;
+    font-family: Raleway, Arial, sans-serif;
     
   }
 
@@ -30,14 +38,20 @@ nav a {
 
   #background {
     background-color:#ff0b69;
+    margin-bottom: 50px;
   }
  
-
   body {
     background-color:#ffbe0b;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
   }
+
   header {
     background-color:hsla(208, 40%, 8%, 0.301);
+    font-family: Raleway, Arial, sans-serif;
   }
  nav a:hover {
     background-color:blue;
@@ -48,12 +62,20 @@ nav a {
     background-color:#ff0b7d79;
     color:black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
   }
 
   .join {
     background-color:#ff0b7d79;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
   }
 
   .book:hover {
@@ -68,46 +90,89 @@ nav a {
   
  .msg {
     background-color:#fb075863; 
+    line-height: 1.5em;
+    padding: 35px;
     
   }
 
   footer {
     background-color:#fb075863;
     color: white;  
+    font-family: Raleway, Arial, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
   }
 
   footer a {
     color: white;  
     text-decoration: none;
+    font-family: Raleway, Arial, sans-serif;
   }
+
   footer a:hover{
     color: green;  
   }
 
   footer p {
     font-size: 1.2em;
+    font-family: Raleway, Arial, sans-serif;
 }  
 footer p a:hover {
     text-decoration: underline;
 } 
   .home-title{
     color: black;
+    font-family:"Rock Salt", "Fredoka One", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
   }
+
  .msg h2{
     color:  wheat;
+    font-family: "Rock Salt","Fredoka One", sans-serif;
+ }
+ 
+.msg p {
+    color:white;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
   }
-  
-  .msg p {
-    color:  white;
+
+  h2 {
+    margin: 0;
   }
  
   .logo {
     width: 80px;
   }
+
+  #logo_link {
+    padding-top: 5px;
+  }
   .icon {
     width: 80px;
+    padding-top: 10px;
   }
 
   .hero-img {
     width: 100px;
   }
+
+footer .social img {
+    padding-top: 15px;
+  }
+
+  
+  .rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+  .card-img {
+    border: 10px solid #a3b1d9a4;
+}
+
+main section img {
+  box-sizing: border-box;
+}
+
