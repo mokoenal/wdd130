@@ -12,6 +12,13 @@ nav a {
     padding: 35px;
   }
 
+  div{
+    text-align: center;
+    font-family: "Rock Salt","Fredoka One", sans-serif;
+    color: white;
+  }
+
+
   nav {
     display: flex;
     justify-content: space-around;
@@ -255,6 +262,87 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 100%;
 
 }
+
+.picture1{
+  width: 100%;
+  grid-column: 2/7;
+  grid-row:  5/8;
+  box-shadow: 5px 5px 10px #8437e9;
+  width: 100%;
+  justify-self: center;
+}
+
+#picture2{
+  width: 100%;
+  grid-column: 2/7;
+  grid-row:  5/8;
+  box-shadow: 5px 5px 10px #8437e9;
+  width: 50%;
+  border: 10px solid hsla(0, 76%, 49%, 0.609);
+}
+
+#pic{
+  width: 100%;
+  grid-column: 2/7;
+  grid-row:  5/8;
+  box-shadow: 5px 5px 10px #8437e9;
+  width: 40%;
+  border: 10px solid hsla(0, 76%, 49%, 0.609);
+}
+#RIVERS{
+  text-align: left;
+  font-family: "Rock Salt","Fredoka One", sans-serif;
+  color: white;
+  grid-column: 2/4 ;
+  grid-row: 2/3;
+}
+
+P {
+  color:white;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+#FAQ{
+  text-align: left;
+  font-family: "Rock Salt","Fredoka One", sans-serif;
+  color: white;
+}
+#BLOG{
+    text-align: left;
+    font-family: "Rock Salt","Fredoka One", sans-serif;
+    color: white;
+  }
+
+
+#RATES{
+    text-align: left;
+    font-family: "Rock Salt","Fredoka One", sans-serif;
+    color: white;
+  }
+
+ 
+
+.River-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  }
+
+  .picture1{
+    grid-column: 2/4 ;
+    grid-row: 2/3;
+  }
+  .picture2{
+    grid-column: 5/7 ;
+    grid-row: 2/3;
+  }
+  .pic{
+    grid-column: 8/10;
+    grid-row: 2/3;
+  }
 
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
