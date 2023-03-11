@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto&family=Rock+Salt&display=swap");
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+* {
+    margin: 0;
+    padding:0
+}
+body {
+    background-color:#68aab5;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+
+.logo{
+   font-size: 300px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 20px;
+   float: left;
+   padding-top: 10px;
+   width: 150px;
+   
+  }
+
+  .logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+  
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    padding: 35px;
+  }
+
+  nav a:hover {
+    background-color:rgb(255, 170, 0);
+    color:white;
+  }
+  
+h1 {
+    text-align: center;
+    font-family: "Rock Salt","Fredoka One", sans-serif;
+    color: white;
+}
+
+div{
+    text-align: center;
+    font-family: "Rock Salt","Fredoka One", sans-serif;
+    color: white;
+  }
+
+h4 {
+    color: whitesmoke;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+    background-color:hwb(354 58% 5% / 0.896); 
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #055508b0;
+    
+  }
+ 
+ 
+  footer {
+    background-color:hwb(332 6% 8% / 0.642); 
+    color: white;  
+    font-family: Raleway, Arial, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer a {
+    color: white;  
+    text-decoration: none;
+    font-family: Raleway, Arial, sans-serif;
+  }
+
+  footer a:hover{
+    color: green;  
+  }
+
+  footer p {
+    font-size: 1.2em;
+    font-family: Raleway, Arial, sans-serif;
+}  
+  footer p a:hover {
+    text-decoration: underline;
+} 
+
+#team{
+    width: 80%;
+    padding-top: 20px;
+    grid-column: 2/7;
+    grid-row:  5/8;
+    box-shadow: 5px 5px 10px #9dd849d3;
+    width: 100%;
+    justify-self: center;
+    
+  }
+  
+  #together{
+    width: 80%;
+    padding-top: 20px;
+    grid-column: 2/7;
+    grid-row:  5/8;
+    box-shadow: 5px 5px 10px #9dd849d3;
+    width: 100%;
+    justify-self: center;
+  }
+
+  #pic{
+    width: 100%;
+    padding-top: 30px;
+    grid-column: 2/7;
+    grid-row:  5/8;
+    box-shadow: 5px 5px 10px #0fe32ced;
+    width: 100%;
+    justify-self: center;
+    
+  }
+  
+  #pic-img {
+    border: 10px solid #ef0c2aa4;
+  }
+  
+  #picture{
+    width: 100%;
+    padding-top: 30px;
+    grid-column: 2/7;
+    grid-row:  5/8;
+    box-shadow: 5px 5px 10px #0fe32ced;
+    width: 100%;
+    justify-self: center;
+    
+  }
+  #picture-img {
+    border: 10px solid #ef0c2aa4;
+  }
+  
+
+  #pics{
+    width: 120%;
+    padding-top: 40px;
+    grid-column: 2/7;
+    grid-row:  5/8;
+    box-shadow: 5px 5px 10px #e30fceed;
+    width: 100%;
+    justify-self: center;
+    
+  }
+  
+  #pics-img {
+    border: 10px solid hsla(54, 94%, 51%, 0.785)
+  }
+  
+  #pictures{
+    width: 100%;
+    padding-top: 40px;
+    grid-column: 2/7;
+    grid-row:  5/8;
+    box-shadow: 5px 5px 10px #e30fceed;
+    width: 100%;
+    justify-self: center;
+    
+  }
+
+  #pictures-img {
+    border: 10px solid hsla(54, 94%, 51%, 0.785)
+  }
+  
+  .main section img {
+    box-sizing: border-box;
+  }
+
+  .button-box {
+    text-align: center;
+  }
+
+  .book {
+    background-color:#ffbe0b;
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  .book:hover {
+    background-color:yellow;
+    color:red;
+  }
+  .home-title{
+    color: white;
+    font-family:"Rock Salt", "Fredoka One", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+  }
+  header {
+    background-color:hsla(347, 90%, 51%, 0.7);
+    font-family: Raleway, Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+  }
